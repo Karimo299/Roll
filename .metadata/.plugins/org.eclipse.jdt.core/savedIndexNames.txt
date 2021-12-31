@@ -1,0 +1,11 @@
+INDEX VERSION 1.131+C:\Users\Karimo299\Documents\Roll\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2511259981.index
+570952049.index
+2332426780.index
+1649898080.index
+1533124487.index
+2577175673.index
+2198737179.index
+1483797337.index
+3995045305.index
