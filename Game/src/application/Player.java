@@ -67,16 +67,6 @@ public class Player {
 	}
 	
 	void move(boolean[] pressedKeys) {
-		// Get the refreshRate of the current display to set the speed of the ball
-		// This is needed since the game moves slower on lower fps if the speed is constant
-//		GraphicsEnvironment env = GraphicsEnvironment.getLocalGraphicsEnvironment();
-//		GraphicsDevice[] devices = env.getScreenDevices();
-//		int refreshRate = devices[0].getDisplayMode().getRefreshRate();
-		
-//		sphere.setTranslateZ(sphere.getTranslateZ() + 120/(refreshRate/20));
-//		if(pressedKeys[0]) sphere.setTranslateX(sphere.getTranslateX() - 120/(refreshRate/10));
-//		if(pressedKeys[1]) sphere.setTranslateX(sphere.getTranslateX() + 120/(refreshRate/10));		
-		
 		sphere.setTranslateZ(sphere.getTranslateZ() + 20);
 		if(pressedKeys[0]) sphere.setTranslateX(sphere.getTranslateX() - 8);
 		if(pressedKeys[1]) sphere.setTranslateX(sphere.getTranslateX() + 8);	
